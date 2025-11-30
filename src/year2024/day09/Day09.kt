@@ -1,4 +1,4 @@
-package day09
+package year2024.day09
 
 import println
 import readInput
@@ -132,8 +132,8 @@ fun main() {
         return score
     }
 
-    val testInput = readInput("09", testData = true)
-    val input = readInput("09")
+    val testInput = readInput("09", 2024, testData = true)
+    val input = readInput("09", 2024)
 
     //part1(input).println() //6201390809186 too high
     part2(input).println()

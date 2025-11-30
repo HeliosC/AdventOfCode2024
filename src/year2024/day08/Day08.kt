@@ -1,4 +1,4 @@
-package day08
+package year2024.day08
 
 import println
 import readInput
@@ -82,8 +82,8 @@ fun main() {
         return antinodes.size
     }
 
-    val testInput = readInput("08", testData = true)
-    val input = readInput("08")
+    val testInput = readInput("08", 2024, testData = true)
+    val input = readInput("08", 2024)
 
     part1(input).println()
     part2(input).println()

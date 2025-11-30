@@ -1,4 +1,4 @@
-package day06
+package year2024.day06
 
 import println
 import readInput
@@ -120,8 +120,8 @@ fun main() {
         return score
     }
 
-    val testInput = readInput("06", testData = true)
-    val input = readInput("06")
+    val testInput = readInput("06", 2024, testData = true)
+    val input = readInput("06", 2024)
 
     part1(input).println()
     part2(input).println()

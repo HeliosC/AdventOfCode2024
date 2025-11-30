@@ -16,8 +16,8 @@ fun main() {
         return score
     }
 
-    val testInput = readInput("00", testData = true)
-    val input = readInput("00")
+    val testInput = readInput("00", 2024, testData = true)
+    val input = readInput("00", 2024)
 
     part1(testInput).println()
     //part2(testInput).println()
